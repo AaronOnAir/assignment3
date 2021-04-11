@@ -1,0 +1,22 @@
+package assignment_3;
+
+public class assignment3_Q7 {
+
+	public static void main(String[] args) {
+
+		int priceOfItemInCents = 95;
+		int cent = 1;
+		int aSingleDollar = cent*100;
+		int theAmountThatVendingMachineAccepts = aSingleDollar;
+		int changeInCents = theAmountThatVendingMachineAccepts - priceOfItemInCents;
+		
+		int quarters = changeInCents/25;
+		int dimes = changeInCents/10;
+		int nickels = changeInCents/5;
+				
+		System.out.println("Price in cents: " + priceOfItemInCents);
+		System.out.println("Your change is " + quarters + " quarters, " + dimes + " dimes, and " + nickels + " nickels");
+		
+	}
+
+}
