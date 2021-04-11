@@ -1,0 +1,15 @@
+package assignment_3;
+
+public class assignment3_Q1 {
+
+	public static void main(String[] args) {
+
+		double gallon = 15;
+		double liter;
+		liter = gallon*3.785413;
+		
+		System.out.println(gallon + " gallon is " + liter + " liter ");
+		
+	}
+
+}
