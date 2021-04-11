@@ -1,0 +1,17 @@
+package assignment_3;
+
+public class assignment3_Q6 {
+
+	public static void main(String[] args) {
+
+		int numberOfMgOfCaffeineInDrink = 500;
+		int lethalOverdoseOfCaffeineAtOneTimeAsGram = 10;
+		int lethalOverdoseOfCaffeineAtOneTimeAsMg = lethalOverdoseOfCaffeineAtOneTimeAsGram*1000;
+		int numberOfDrinksForAlethalOverdose = lethalOverdoseOfCaffeineAtOneTimeAsMg / numberOfMgOfCaffeineInDrink;
+			
+		System.out.println("Number of miligrams in drink: " + numberOfMgOfCaffeineInDrink);
+		System.out.println("It would take about " + numberOfDrinksForAlethalOverdose + " drinks for a lethal overdose");
+			
+	}
+
+}
