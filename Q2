@@ -1,0 +1,15 @@
+package assignment_3;
+
+public class assignment3_Q2 {
+
+	public static void main(String[] args) {
+
+		String	name = "Aaron";
+		int birthYear = 1985;
+		int age = 2021-birthYear;
+		
+		System.out.println("\"Hello " + name + "! " + "Based on your input, your age is " + age + ":)\""); 
+				
+	}
+
+}
