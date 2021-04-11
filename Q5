@@ -1,0 +1,22 @@
+package assignment_3;
+
+public class assignment3_Q5 {
+
+	public static void main(String[] args) {
+
+		int inputSeconds = 3695;
+		int hours;
+		int minutes;
+		int seconds;
+		
+		seconds = inputSeconds%60;				
+		minutes = inputSeconds/60;
+		hours = minutes/60;
+		minutes = minutes%60;
+			
+		System.out.println("inputSecond is " + inputSeconds);
+		System.out.println(hours + " hours, " + minutes + " minutes, " + seconds + " seconds");
+
+	}
+
+}
